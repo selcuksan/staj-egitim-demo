@@ -2,7 +2,6 @@ version: '3.8'
 services:
   web:
     image: selcuksan/docker-demo-app:v1
-    build: .
     ports:
       - "5000:5000"
     depends_on:
