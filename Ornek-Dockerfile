@@ -1,0 +1,16 @@
+FROM ubuntu:22.04
+
+WORKDIR /app
+
+RUN apt-get update && \
+    apt-get install -y python3.11 python3.11-dev python3-pip && 
+
+COPY requirements.txt .
+
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+COPY app/ .
+
+EXPOSE 5000
+
+CMD ["python3.11", "main.py"]
