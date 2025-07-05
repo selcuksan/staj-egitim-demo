@@ -28,7 +28,7 @@ docker login                                                  # Docker Hub'a gir
 
 docker push selcuksan/docker-demo-app:v1                      # Oluşturulan imajı Docker Hub'a gönderir
 
-docker compose up -d                                          # docker-compose ile servisleri arka planda başlatır
+docker-compose up -d                                          # docker-compose ile servisleri arka planda başlatır
 
 curl localhost:5000                                           # 5000 portundan uygulamaya istek atar
 
