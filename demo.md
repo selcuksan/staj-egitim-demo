@@ -24,7 +24,7 @@ docker ps                       # Çalışan konteynerleri tekrar listeler
 
 docker ps -a                    # Tüm (çalışan ve durmuş) konteynerleri listeler
 
-docker start nginx-demo         # nginx-demo isimli konteyneri başlatır
+docker start mynginx            # mynginx isimli konteyneri başlatır
 
 docker stop mynginx             # mynginx konteynerini tekrar durdurur
 
