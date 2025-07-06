@@ -8,7 +8,7 @@ docker pull nginx               # nginx imajını indirir
 
 docker run nginx                # nginx konteynerini başlatır
 
-docker run -d --name mynginx-1 -p 8080:80 nginx   # nginx'i arka planda 8080 portuna map ederek başlatır
+docker run -d --name mynginx -p 8080:80 nginx   # nginx'i arka planda 8080 portuna map ederek başlatır
 
 docker ps                       # Çalışan konteynerleri listeler
 
