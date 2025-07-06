@@ -48,3 +48,30 @@
 
 - `docker rmi nginx`  
     nginx imajını siler
+
+
+# Docker Compose Demo Uygulaması
+
+- `git clone https://github.com/selcuksan/staj-egitim-demo.git`  
+    Demo uygulamasını GitHub'dan klonlar.
+
+- `docker build -t selcuksan/docker-demo-app:v1 .`  
+    Docker imajını oluşturur ve etiketler.
+
+- `docker login`  
+    Docker Hub'a giriş yapar.
+
+- `docker push selcuksan/docker-demo-app:v1`  
+    Oluşturulan imajı Docker Hub'a gönderir.
+
+- `docker-compose up -d`  
+    docker-compose ile servisleri arka planda başlatır.
+
+- `curl localhost:5000`  
+    5000 portundan uygulamaya istek atar.
+
+- `docker-compose down`  
+    docker-compose ile tüm servisleri durdurur.
+
+- `docker-compose up -d`  
+    Servisleri tekrar başlatır. Verinin korunduğunu kontrol edebiliriz.
