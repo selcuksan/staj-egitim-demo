@@ -16,7 +16,7 @@ docker stop mynginx             * mynginx konteynerini tekrar durdurur
 docker rm mynginx               * mynginx konteynerini siler
 docker rmi nginx                * nginx imajını siler
 
-# docker-compose demo             * docker-compose ile demo çalışması
+ -> docker-compose demo             * docker-compose ile demo çalışması
 
 git clone https://github.com/selcuksan/staj-egitim-demo.git   # Demo uygulamasını GitHub'dan klonlar
 
