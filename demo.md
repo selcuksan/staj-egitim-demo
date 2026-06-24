@@ -2,7 +2,7 @@
     Docker sürümünü gösterir
 
 - `sudo apt update`
-    Paketleri günceller.
+    Paketleri günceller
   
 - `docker images`  
     Mevcut Docker imajlarını listeler
