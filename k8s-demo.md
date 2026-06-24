@@ -82,6 +82,8 @@
 
 # Kubernetes Demo Uygulaması
 
+* `git clone https://github.com/selcuksan/staj-egitim-demo.git`
+
 * `kubectl create namespace staj-demo`
 
   Demo uygulaması için namespace oluşturur.
