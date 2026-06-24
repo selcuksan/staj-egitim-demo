@@ -67,8 +67,8 @@
 - `docker-compose up -d`  
     docker-compose ile servisleri arka planda başlatır.
 
-- `curl localhost:5000`  
-    5000 portundan uygulamaya istek atar.
+- `curl localhost:5001`  
+    5001 portundan uygulamaya istek atar.
 
 - `docker-compose down`  
     docker-compose ile tüm servisleri durdurur.
