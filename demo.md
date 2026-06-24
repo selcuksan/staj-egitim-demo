@@ -1,6 +1,9 @@
 - `docker --version`  
     Docker sürümünü gösterir
 
+- `sudo apt update`
+    Paketleri günceller.
+  
 - `docker images`  
     Mevcut Docker imajlarını listeler
 
